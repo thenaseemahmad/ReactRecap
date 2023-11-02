@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+#parent {
+    height: 100%;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0; /* set the bottom to 0*/
+}

@@ -1,18 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Heading from './Heading';
+import Body from './Body';
+import Footer from './Footer';
 
-const header = ReactDOM.createRoot(document.getElementById('root'));
+
+const header = ReactDOM.createRoot(document.getElementById('header'));
 header.render(
-  <h1>Header elements here</h1>
+  <Heading />
 );
 
 const midbody = ReactDOM.createRoot(document.getElementById('midbody'));
 midbody.render(
-  <h1>Body elements here</h1>
+  <Body />
 );
 
 const footer = ReactDOM.createRoot(document.getElementById('footer'));
 footer.render(
-  <h1>Footer elements here</h1>
+  
+  <Footer />
 );
 
