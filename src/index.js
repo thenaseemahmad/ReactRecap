@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Heading from './Heading';
-import Body from './Body';
-import Footer from './Footer';
+import Heading from './header/Heading';
+import Body from './body/Body';
+import Footer from './footer/Footer';
 
 
 const header = ReactDOM.createRoot(document.getElementById('header'));
